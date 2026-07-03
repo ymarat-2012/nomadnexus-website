@@ -1,0 +1,36 @@
+.switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  gap: 2px;
+}
+
+.option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  padding: 7px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.option:hover {
+  color: var(--color-text);
+}
+
+.optionActive {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+.optionActive:hover {
+  color: var(--color-on-accent);
+}
