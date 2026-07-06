@@ -1,0 +1,55 @@
+.solutionGrid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+  .solutionGrid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: start;
+  }
+}
+
+.solutionBody h2 {
+  margin-bottom: 16px;
+}
+
+.solutionBody .lead {
+  margin-bottom: 16px;
+}
+
+.includesCard {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.includesLabel {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.includesList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.includesList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.includesList svg {
+  width: 20px;
+  height: 20px;
+  color: var(--color-accent);
+  flex: none;
+  margin-top: 1px;
+}

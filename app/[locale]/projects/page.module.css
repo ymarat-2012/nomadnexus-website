@@ -1,0 +1,9 @@
+.caseCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.caseCard h3 {
+  margin-top: 4px;
+}

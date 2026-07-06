@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  flex: none;
+}
+
+.iconWrap svg {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.text {
+  color: var(--color-text-muted);
+}
